@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas */
+    grid-template-rows: repeat(18, auto); /* 18 linhas */
+    gap: 5px; /* Espaçamento entre os itens */
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
